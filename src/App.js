@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <LoginForm/>
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <Footer/>
     </div>
     
