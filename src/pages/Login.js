@@ -1,9 +1,12 @@
-import Loginpage from '../components/Loginpage'
+import LoginForm from '../components/LoginForm'
+import DefaultFooter from '../components/Footer'
 
 function Login() {
   return (
     <div>
-      <Loginpage/>
+      <LoginForm/>
+      
+      <DefaultFooter/>
     </div>
   );
 }
