@@ -1,28 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 .footer{
-  background: #152F4F;
-  color:white;
+  background: white;
+  color:orange;
   
+  .logos{
+    height: 50px;
+    margin: 10px;
+  }  
   .links{
-    ul {list-style-type: none;}
-    li a{
-      color: white;
+    font-family: 'Montserrat', sans-serif;
+    a{
+      text-decoration: none;
+      color: orange;
       transition: color .2s;
       &:hover{
         text-decoration:none;
-        color:#4180CB;
+        color:#206dca;
         }
     }
-  }  
-  .about-company{
-    i{font-size: 25px;}
-    a{
-      color:white;
-      transition: color .2s;
-      &:hover{color:#4180CB}
-    }
-  } 
-  .location{
-    i{font-size: 18px;}
   }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }

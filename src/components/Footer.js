@@ -1,48 +1,55 @@
 import React from 'react'
+import instalogo from '../images/instagram.png'
+import facelogo from '../images/facebook.png'
+import youtubelogo from '../images/youtube.png'
+import whatsapplogo from '../images/whatsapp.png'
+import twitterlogo from '../images/gorjeo.png'
 import './styles/Footer.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Row, Col} from 'react-bootstrap'
+import {Row, Col, Container} from 'react-bootstrap'
+import { Image } from 'react-bootstrap'
+
 
 class Footer extends React.Component{
     render(){
       return (
         <div>
-          <Row>
-            <Col style= {{ backgroundColor: "red" }}> <br/> </Col>
-            <Col style= {{ backgroundColor: "blue" }}> <br/> </Col>
-          </Row>
             <div class="mt-5 pt-5 pb-5 footer">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-5 col-xs-12 about-company">
-                  <h2>Heading</h2>
-                  <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
-                  <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
-                </div>
-                <div class="col-lg-3 col-xs-12 links">
-                  <h4 class="mt-lg-0 mt-sm-3">Links</h4>
-                    <ul class="m-0 p-0">
-                      <li>- <a href="#">Lorem ipsum</a></li>
-                      <li>- <a href="#">Nam mauris velit</a></li>
-                      <li>- <a href="#">Etiam vitae mauris</a></li>
-                      <li>- <a href="#">Fusce scelerisque</a></li>
-                      <li>- <a href="#">Sed faucibus</a></li>
-                      <li>- <a href="#">Mauris efficitur nulla</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-xs-12 location">
-                  <h4 class="mt-lg-0 mt-sm-4">Location</h4>
-                  <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
-                  <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
-                  <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
-                </div>
-              </div>
-              <div class="row mt-5">
-                <div class="col copyright">
-                  <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
-                </div>
-              </div>
-            </div>
+                <Row>
+                  <Col style= {{ backgroundColor: "red" }}> <br/> </Col>
+                  <Col style= {{ backgroundColor: "blue" }}> <br/> </Col>
+                </Row>
+              <Container>
+                <Row>
+                  <Col sm={4} className="mt-5">
+                    <br/>
+                    <div class="d-flex align-items-center">
+                      <Image className="logos" src={facelogo}></Image>
+                      <Image className="logos" src={instalogo}></Image>
+                      <Image className="logos" src={youtubelogo}></Image>
+                      <Image className="logos" src={twitterlogo}></Image>
+                      <Image className="logos" src={whatsapplogo}></Image>
+                    </div>
+                  </Col>
+                  <Col className="links mt-5">
+                    <a href="https://youtu.be/dQw4w9WgXcQ">LETRA LIBRE</a>
+                    <br/><br/>
+                    <a href="https://youtu.be/dQw4w9WgXcQ">NUESTRO PROYECTO</a>
+                    <br/><br/>
+                    <a href="https://youtu.be/dQw4w9WgXcQ">DONACIONES</a>
+                  </Col>
+                  <Col className="links mt-5">
+                    <a href="https://youtu.be/dQw4w9WgXcQ">AYUDA</a>
+                    <br/><br/>
+                    <a href="https://youtu.be/dQw4w9WgXcQ">REPORTAR UN PROBLEMA</a>
+                    <br/><br/>
+                    <a href="https://youtu.be/dQw4w9WgXcQ">CONTACTO</a>
+                  </Col>
+                  <Col className="links mt-5">
+                    <a href="https://youtu.be/dQw4w9WgXcQ">CONTACTO@LETRALIBRE.CL</a>
+                  </Col>
+                </Row>
+              </Container>
             </div>
 
 
