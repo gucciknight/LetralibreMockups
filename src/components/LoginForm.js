@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import imglogo from '../images/logoletralibre.png'
-import './styles/LoginForm.css'
+import './styles/LoginForm.scss'
 import { Button, Card, Col, Container, Form, Row } from 'react-bootstrap'
 
 class LoginForm extends React.Component{

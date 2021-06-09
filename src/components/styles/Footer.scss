@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 .footer{
   background: white;
   color:orange;
+  position: relative;
+  bottom: 0;
+  width: 100%;
   
   .logos{
     height: 50px;
