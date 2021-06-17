@@ -1,0 +1,58 @@
+@charset "UTF-8";
+.contenedor {
+  background-color: #fafafa;
+}
+
+.formLabels {
+  color: orange;
+}
+
+.inputs {
+  background-color: orange;
+}
+
+.intranet {
+  color: blue;
+}
+
+.ingresar {
+  color: orange;
+}
+
+.logo {
+  height: 170px;
+  width: 300px;
+  /*height: 85px;
+      width: 149px; 
+      Tamaño original del logo*/
+}
+
+.carta {
+  border: 1px solid #fafafa;
+  background-color: #fafafa;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.form-control::-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
+  background-color: orange !important;
+}
+/*# sourceMappingURL=LoginForm.css.map */
